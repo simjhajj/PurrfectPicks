@@ -1,0 +1,146 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #000000;
+}
+
+/* Header Styles */
+
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+header h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+
+/* Container Styles */
+.container {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: 0;
+}
+
+.sidebar h2 {
+    color: #333;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    flex: 4;
+    padding: 20px;
+}
+
+main h1 {
+    color: #333;
+}
+
+/* Product Styles */
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    flex: 1 1 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* Copyright Section Styles */
+footer .copyright {
+    margin-bottom: 10px;
+}
+
+/* Navigation in Footer Styles */
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
